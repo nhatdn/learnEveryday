@@ -6,4 +6,4 @@ tìm hiểu về vùng nhớ callstack
 =================== Javascript ====================
 Tìm hiểu về toán tử Optional chaining ( ?. )
 Dùng để kiểm tra bên trong thuộc tính con của đối tượng đó có thuộc tính đó hay không
-nếu có thì trả về thuộc tính đó, ngược lại trả về undefined
+nếu có thì trả về thuộc tính đó, ngược lại trả về undefined 
