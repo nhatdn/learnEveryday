@@ -1,0 +1,7 @@
+Tìm hiểu một số hướng đi mới với C++:
+- Game: cần học thêm về OpenGL để hiểu bản chất và sử dụng Unreal Engine. Bên gameloft mạnh về phần này
+- Mô phỏng,m: gần giống vs game nhưng cần thêm kiến thức về Realtime, C++ high performance, parrallel, GPU computing. Như bên Viettel sẽ mạnh về cái này
+- Automotive: phục vụ cho các phần mềm trên oto, cần biết về Linux, Qt Platform. Theo hướng này có bên LG 
+- Xử lý ảnh: cần biết về OpenCV, các kiến thức về màu sắc. Bên Xavis tech ở Duy Tân đang làm mảng này
+- VR/AR: đây là hướng mới, Viettel đang mạnh nhất về mảng này
+- C++ Desktop App: cần biết về GUI, 1 số framework như Qt, MFC. Các cty có thể tham khảo như FPT, Ewoosoft, Viettel, Toshiba,....

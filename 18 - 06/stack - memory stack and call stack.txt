@@ -1,0 +1,69 @@
+3 khái niệm này ta lần lượt hiểu như sau:
+- Stack: Nó là cấu trúc sắp xếp đồ theo kiểu xếp chồng. Cái nguyên lý xếp đồ này nó có thể áp dụng chung cho đĩa ăn, đĩa CD, sách vở... Vậy cái nguyên lí chung đó sẽ gọi là "Abstract". Nghĩa tiếng VN là "trừu tượng", trừu tượng có nghĩa ko phải là 1 cái gì cụ thể. Việc áp dụng nó vào 1 vấn đề cụ thể, ng ta sẽ gọi là "Implement", Ví dụ: áp dụng phương pháp xếp chồng vào việc rửa bát. Thì cái bát đầu tiên mà ta đặt vào chồng sẽ bị rửa cuối cùng. 
+
+- Memory Stack: Sau khi ta đã hiểu Stack rồi thì Memory stack chính là implement nguyên lý xếp chồng vào tổ chức dữ liệu. Dữ liệu của chúng ta giống như cái bát. Khi ta khai báo biến nào trước thì nó ở dưới đáy và bị lấy ra cuối cùng. Để minh hoạ rõ hơn, chúng ta hãy thử chạy đoạn code sau (build ở kiến trúc x64 VC++)
+#include <iostream>
+int main()
+{
+ int x = 0;
+ int y = 1;
+ int z = 2;
+ std::cout << &x << "\n" << &y << "\n" << &z << "\n";
+ system("pause");
+}
+Đây là chương trình in ra địa chỉ của 3 biến x, y, z. Mỗi lần in sẽ ra kết quả khác nhau nhưng sẽ tuân theo 1 quy luật. A ví dụ: 
+000000C2F66FF814
+000000C2F66FF834
+000000C2F66FF854
+Chỉ cần chú ý 2 số cuối vì phần còn lại nó giống nhau. Chúng ta sẽ thấy 3 biến đc xếp ở 3 địa chỉ tăng lên đều nhau: 14->34->54. Khoảng cách của nó là 20 nếu nhìn ở hệ thập phân (20 = 2x10), tuy nhiên địa chỉ này thuộc hệ Hex, nên khoảng cách giữa các địa chỉ sẽ là 2x16=32. (Diễn giải: 14, 15, 16,... 19, 1A, 1B,... 1F, 20, 21, 22, ...29, 2A, ...2F, 30, ...3F). 32 ở đây là 32bit = 4 byte, tương đương với kích thước của 1 số INT.
+Vậy kết luận là dữ liệu đc xếp chồng lên đúng theo thứ tự trong địa chỉ vùng nhớ
+
+- Call Stack: Để hiểu 1 cách dễ nhất, em hãy chạy đoạn code sau trong Visual Studio (Debug mode)
+#include <iostream>
+
+int so_bai_tap_lam_duoc = 0;
+
+void lam_toan()
+{
+ so_bai_tap_lam_duoc++;
+}
+
+void lam_van()
+{
+ so_bai_tap_lam_duoc++; //Đặt breakpoint ở đây
+}
+
+void lam_bai_tap()
+{
+ lam_toan();
+ lam_van();
+}
+
+int main()
+{
+ lam_bai_tap();
+ system("pause");
+}
+Flow chương trình như sau: 
+1. Hàm main sẽ đc gọi đầu tiên, main() đc cho vào Call Stack. Chương trình sẽ đọc hàm main
+2. Sau đó lam_bai_tap() đc gọi nên đc xếp chồng tiếp vào CallStack. Chương trình đọc hàm lam_bai_tap()
+3. Hàm lam_toan() đc gọi nên đc xếp chồng vào CallStack().
+4. Lúc này, Call Stack nó là cái chồng đĩa đc xếp như sau:
+lam_toan()
+lam_bai_tap()
+main()
+5. Hàm lam_toan() sau đó đc thực hiện xong. như kiểu cái bát đc rửa xong, bỏ ra thôi. Call Stack còn lại là:
+lam_bai_tap()
+main().
+6. Tiếp tục hàm lam_van() đc gọi. Call Stack:
+lam_van()
+lam_bai_tap()
+main()
+7. Làm văn xong: 
+lam_bai_tap()
+main()
+8. Làm bài tập xong: 
+main()
+9. Chạy xong chương trình: tức là cái bát main() cuối cùng đc rửa. 
+Vậy kết luận: Call Stack là implement nguyên lý xếp chồng cho luồng chương trình. Cách mà nó gọi hàm trong hàm như thế nào được diễn tả qua Call Stack. 
+Trong dự án thực tế, khi 1 bug xuất hiện, ta sẽ biết được luồng chươngh trình đang dừng lại ở hàm nào.
