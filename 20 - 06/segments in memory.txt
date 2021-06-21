@@ -1,0 +1,96 @@
+Text segment (code segement or simply as text).
+là một trong các phần của một chương trình
+trong một đối tượng file hoặc trong một vùng nhớ
+nơi chứa các câu lệnh được thực thi
+text segment có thể nằm dưới heap hoặc stack để
+ngăn chặn heap or stack tràn từ việc ghi đè lên nó
+
+text segment có thể chia sẽ, nên chỉ cần một bản
+sao duy nhất trong vùng nhớ cho việc thư thi chương
+trình thường xuyên. Ví dụ như text editor, compliler,
+shells.. 
+text segment thường thì chỉ được đọc, tránh tình
+trạng một chương trình khác sửa đổi đi cấu trúc
+câu lệnh, hướng dẫn của nó.
+initalized data segment (vùng khởi tạo dữ liệu).
+usually called simply the Data segment.
+nó là một phần của vùng địa chỉ ảo của một chương trình
+nơi chứa các biến global và static được khởi tạo
+bởi lập trình viên.
+
+data segment k chỉ đọc, giá trị của các biến này
+có thể được thay đổi (altered) trong thời gian chạy
+data segment có thể chia thành 2 phần bao gồm
+khởi tạo khu vực read-only
+và khởi tạo khu vực read-write
+For instance: char s[] = "hello world"
+int debug = 1 (outside the main function)
+=> would be stored(lưu trữ) in the initalized 
+read-write area. 
+
+For instance: const char * str = "hello world";
+
+Uninitialized Data Segment
+often called bss segment (block started by symbol)
+dữ liệu trong vùng này được khởi tạo bằng giá trị 0
+trước khi chương trình được thực thi
+
+dữ liệu của bss bắt đầu ở phần dưới của data segment
+và chứa toàn bộ các biến global and static khởi
+tạo giá trị = 0 hoặc k khởi tạo giá trị trong mã nguồn
+
+stack:
+giáp với heap area và lên lên theo chiều ngược lại.
+khi stack pointer met the heap pointer =>
+bộ nhớ trống đã cạn kiệt (exhausted)
+(với không gian địa chỉ lớn hiện đại và kỹ thuật
+bộ nhớ ảo, chúng có thể được đặt ở hầu hết mọi nơi
+nhưng chúng thường vẫn lớn lên theo chiều ngược nhau)
+
+stack area contains the program stack
+a LIFO structure.
+thường nằm ở phần cao hơn của bộ nhớ.
+theo tiêu chuẩn (standard) PC x86 kiến trúc máy tính
+architecure
+nó phát triển, hướng về địa chỉ 0
+trong một số kiến trúc khác, nó lớn lên theo chiều
+ngược lại
+opposite direction(hướng ngược lại).
+
+a stack pointer được đăng kí theo dõi trên cùng của
+ngăn xếp. nó được điều chỉnh mỗi khi có 1 giá trị
+nào đó được đẩy vào stack. Tập hợp các giá trị
+được push cho một lệnh gọi hàm được gọi là
+stack frame.
+
+stack frame bao gồm nhỏ nhất của một địa chỉ trả về
+
+stack là nơi các biến tự động lưu trữ,
+cùng với thông tin được lưu mỗi khi một hàm được
+gọi. Mỗi lần hàm được gọi, địa chỉ của nơi quay lại
+và các thông tin nhất định về môi trường của lệnh gọi
+
+Sau đó, hàm mới được gọi sẽ phân bổ không gian trên ngăn xếp
+cho các biến tự động và tạm thời của nó.
+Đây là cách mà các hàm đệ quy có thể hoạt động
+Mỗi lần hàm đệ quy gọi lại chính nó, một new
+stack frame được sử dụng.
+Vì vậy một tập hợp các biến không can thiệp vào các biến
+từ một phiên bản khác của hàm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+git init: tạo ra 1 repos local, 1 khó chứa git
+nơi chứa các thông tin của các file trong folder này
+Sau khi tạo ra 1 repos thì chúng ta có thể sử dụng
+các câu lệnh git khác trên thư mục này
+nơi đây gọi là working directory
+
+git status: kiểm tra tình trạng các file:
+nhánh.
+
+Untracked file:
+là các file file mà chưa được git theo dõi.
+muốn theo dõi thì sử dujg git add tên file.
+
+Khi file được git theo dõi
+file có thể nằm 1 trong 3 trạng thái
+Umodified: không có sự thay đổi gì so với commit
+cuối
+
+Modified: có sự thay đổi gì so với commit
+cuối
+
+Staged: các dữ liệu từ các file bị thay đổi sẽ được
+đánh dấu để đưa vào database của git
+
+git add <tên file>
+đưa 1 file chưa được theo dõi vào Staging area
+hoặc đưa file đã bị thay đổi vào Staging area
+
+git commit dùng để đưa các dữ liệu từ vùng 
+staging area 
+kiểm tra nhánh: git branch
+
+git diff
+xem sự thay đổi của file trong working directory
+so với commit cuối, nếu vùng staging k có dữ liệu
+gì
+git diff --stage
+nếu vùng staging có dữ liệu, nó sẽ so sánh vùng
+staging với commit cuối
+
+hiển thị thông tin commit vắn tắt
+git log --online
+
+phục hồi dữ liệu file về 1 commit nào đó đã tạo
+git checkout <mã commit> -- <tên file>
+
+ git rm --cached <tên file>: dùng để hủy bỏ sự
+theo dõi file này, đồng thời các dữ
+liệu thay đổi được lưu trong staging area của file đó
+sẽ được xóa bỏ
+
+file .gitignore: file này chữa những loại file, tên file
+hay thư mục mà ta muốn git không theo dõi chúng
+*.txt
+<tên thư mục>
+
+
+git commit --amend -m "comment"
+dùng để thêm dữ liệu đó vào commit hiện tại
+không tạo ra commit mới.
+
+xóa commit có 2 loại
+commit reset --soft HEAD~1: dữ liệu được thay đổi được
+lưu tại commit cuối được đưa về staging
+
+xóa hẳn commit, không phục hồi được
+git commit reset --hard HEAD~1
+
+Xóa dữ liệu trong vùng stage
+git reset -- <tên file>
+
+tạo branch
+git branch <tên branch>
+git branch 
+
+trỏ sang branch khác
+git checkout <tên branch>
+git switch <tên branch>
+gộp nhánh
+đứng tại vị trí cần gộp
+git merge <tên branch khác>
+xóa branch -d <tên branch>

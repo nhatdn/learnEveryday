@@ -1,0 +1,4 @@
+GIT
+Cài đặt nginx, mariadb, php trên server R2 ảo, Linux
+tải wordpress và cấu hình
+Làm bài tập assignment ở trường
