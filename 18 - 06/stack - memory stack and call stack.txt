@@ -2,12 +2,27 @@
 - Stack: Nó là cấu trúc sắp xếp đồ theo kiểu xếp chồng. Cái nguyên lý xếp đồ này nó có thể áp dụng chung cho đĩa ăn, đĩa CD, sách vở... Vậy cái nguyên lí chung đó sẽ gọi là "Abstract". Nghĩa tiếng VN là "trừu tượng", trừu tượng có nghĩa ko phải là 1 cái gì cụ thể. Việc áp dụng nó vào 1 vấn đề cụ thể, ng ta sẽ gọi là "Implement", Ví dụ: áp dụng phương pháp xếp chồng vào việc rửa bát. Thì cái bát đầu tiên mà ta đặt vào chồng sẽ bị rửa cuối cùng. 
 
 - Memory Stack: Sau khi ta đã hiểu Stack rồi thì Memory stack chính là implement nguyên lý xếp chồng vào tổ chức dữ liệu. Dữ liệu của chúng ta giống như cái bát. Khi ta khai báo biến nào trước thì nó ở dưới đáy và bị lấy ra cuối cùng. Để minh hoạ rõ hơn, chúng ta hãy thử chạy đoạn code sau (build ở kiến trúc x64 VC++)
+text segment
+init data segment
+int a = 2;
+unit data segment
+int a;
+memory stack
+
+
 #include <iostream>
+void show(z) {
+// in gia tri bien z
+show(z);
+}
+
 int main()
 {
  int x = 0;
  int y = 1;
  int z = 2;
+show(z);
+
  std::cout << &x << "\n" << &y << "\n" << &z << "\n";
  system("pause");
 }
@@ -15,6 +30,7 @@ int main()
 000000C2F66FF814
 000000C2F66FF834
 000000C2F66FF854
+
 Chỉ cần chú ý 2 số cuối vì phần còn lại nó giống nhau. Chúng ta sẽ thấy 3 biến đc xếp ở 3 địa chỉ tăng lên đều nhau: 14->34->54. Khoảng cách của nó là 20 nếu nhìn ở hệ thập phân (20 = 2x10), tuy nhiên địa chỉ này thuộc hệ Hex, nên khoảng cách giữa các địa chỉ sẽ là 2x16=32. (Diễn giải: 14, 15, 16,... 19, 1A, 1B,... 1F, 20, 21, 22, ...29, 2A, ...2F, 30, ...3F). 32 ở đây là 32bit = 4 byte, tương đương với kích thước của 1 số INT.
 Vậy kết luận là dữ liệu đc xếp chồng lên đúng theo thứ tự trong địa chỉ vùng nhớ
 
@@ -44,6 +60,8 @@ int main()
  lam_bai_tap();
  system("pause");
 }
+
+
 Flow chương trình như sau: 
 1. Hàm main sẽ đc gọi đầu tiên, main() đc cho vào Call Stack. Chương trình sẽ đọc hàm main
 2. Sau đó lam_bai_tap() đc gọi nên đc xếp chồng tiếp vào CallStack. Chương trình đọc hàm lam_bai_tap()
