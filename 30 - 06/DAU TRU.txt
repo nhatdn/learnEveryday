@@ -1,0 +1,72 @@
+#include <iostream>
+#include <iostream>
+#include <string> 
+#include "C++Test.h"
+using namespace std;
+int convertNumber(char i) {
+	return int(i) - 48;
+}
+char convertChar(int i) {
+	return char(i + 48);
+}
+string Handle(string firstNumber, string secondNumber, int lengthFirstNumber, int lengthSecondNumber) {
+	int A, B;
+	string Result = "";
+	int tam = 0;
+	while ((lengthFirstNumber != -1) && (lengthSecondNumber != -1)) {
+		A = convertNumber(firstNumber[lengthFirstNumber]);
+		B = convertNumber(secondNumber[lengthSecondNumber]);
+		if (A >= B) {
+			tam = A - B;
+		}
+		else if (lengthFirstNumber > 0) {
+			firstNumber[lengthFirstNumber - 1] = convertChar(convertNumber(firstNumber[lengthFirstNumber - 1]) - 1);
+			tam = 10 + A - B;
+		}
+		Result = convertChar(tam) + Result;
+		lengthSecondNumber--;
+		lengthFirstNumber--;
+	}
+	string temp = lengthFirstNumber != -1 ? firstNumber.substr(0, lengthFirstNumber + 1) : "";
+	Result = temp + Result;
+	while ((Result[0] == '0') && (Result.length() > 1)) {
+		Result.erase(0, 1);
+	}
+	return Result;
+}
+int main() {
+	string firstNumber, secondNumber;
+	cout << "Nhap so thu nhat: ";
+	getline(cin, firstNumber);
+	cout << "Nhap so thu hai: ";
+	getline(cin, secondNumber);
+	int lengthNumber = firstNumber.length() > secondNumber.length() ? firstNumber.length() : secondNumber.length();
+	// hai số dương
+		// số lượng chữ số bằng nhau, số bị trừ > số trừ => hiệu > 0
+	int lengthFirstNumber = firstNumber.length() - 1;
+	int lengthSecondNumber = secondNumber.length() - 1;
+	string Result;
+	if (lengthFirstNumber > lengthSecondNumber) {
+		Result = Handle(firstNumber, secondNumber, lengthFirstNumber, lengthSecondNumber);
+	}
+	else if (lengthFirstNumber < lengthSecondNumber) {
+		Result = "-" + Handle(secondNumber, firstNumber, lengthSecondNumber, lengthFirstNumber);
+	}
+	else if (lengthFirstNumber == lengthSecondNumber) {
+		if (secondNumber == firstNumber) {
+			Result = "0";
+		}
+		else if (firstNumber > secondNumber) {
+			Result = Handle(firstNumber, secondNumber, lengthFirstNumber, lengthSecondNumber);
+		}
+		else {
+			Result = "-" + Handle(secondNumber, firstNumber, lengthSecondNumber, lengthFirstNumber);
+		}
+	}
+	cout << Result << endl;
+	// hai số âm
+	// số trừ âm
+	// số bị trừ âm
+	system("pause");
+	return 0;
+}

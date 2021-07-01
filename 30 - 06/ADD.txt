@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+typedef long myString;
+void Handle(int ArrA[], int ArrB[], int Result[], int soLuongSoHang, int n) {
+	int temp;
+
+	while (soLuongSoHang > 0) {
+		n--;
+		temp = ArrA[n] + ArrB[n];
+		if (temp > 9) {
+			Result[n - 1] = 1;
+			temp = temp % 10;
+		}
+		Result[n] = Result[n] + temp;
+		soLuongSoHang--;
+	}
+}
+
+void Show(int result[], int soLuongSoHang, int n) {
+	int temp = n - soLuongSoHang - 1;
+	if (result[temp] != 0) {
+		cout << result[temp++];
+	}
+	for (int i = temp; i < n; i++) {
+		cout << result[i];
+	}
+	cout << endl;
+}
+int main()
+{
+	myString a, b;
+	cout << "BIEU THUC CONG" << endl;
+	cout << "nhap so thu nhat: " << endl;
+	cin >> a;
+	cout << "nhap so thu hai: " << endl;
+	cin >> b;
+	int ArrA[11], ArrB[11];
+	int temp = 0;
+	myString copyA, copyB;
+	int DemSoHang = 0;
+	copyA = a;
+	copyB = b;
+	for (int i = 10; (i >= 0) && (copyA > 0); i--) {
+		temp = copyA % 10;
+		ArrA[i] = temp;
+		temp = copyB % 10;
+		ArrB[i] = temp;
+		copyA /= 10;
+		copyB /= 10;
+
+		DemSoHang++;
+	}
+	int Result[11];
+	for (int i = 0; i < 11; i++) {
+		Result[i] = 0;
+	}
+	Handle(ArrA, ArrB, Result, DemSoHang, 11);
+	cout << "KQ: ";
+	Show(Result, DemSoHang, 11);
+	system("pause");
+	return 0;
+}
