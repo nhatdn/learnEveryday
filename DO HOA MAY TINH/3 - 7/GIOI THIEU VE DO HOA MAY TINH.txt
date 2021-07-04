@@ -1,0 +1,35 @@
+tính ứng dụng của đồ họa máy tính như:
+hiển thị thông tin
+dùng máy tính để thiết kế
+tạo ra các hình động, hoạt hình
+tạo giao diện người dùng
+
+một số thành phần phần cứng trong đồ họa máy tính
+thiết bị nhập
+vi xử lí
+bộ nhớ
+	bộ đệm frame
+	thiết bị xuất
+bộ đệm frame là một vùng nhớ lưu trữ những gì mà mình vẽ
+sẽ chuyển đổi những gì có trong frame ra màn hình
+vị trí của frame nằm trong RAM
+nếu có GPU, frame nằm ở đây
+thành phần nhỏ nhất của đồ họa là pixel
+thực chất nó là mảng 2 chiều
+mỗi px sẽ có vị trí và giá trị tại ô của mảng hai chiều đó là màu.
+bộ đệm và màn hình đi đôi với nhau
+bộ đệm frame = kích thước px của màn hình
+
+màn hình:
+phủ 1 lớp photo, khi một lớp điện tử bắn vào thì nó sáng, rồi tắt
+dựa vào tụ điện mà sẽ điều khiển được tia điện tử đó bắn vào vị trí nào trên màn hình
+
+
+
+
+
+
+
+
+
+
