@@ -53,7 +53,7 @@ void display() {
 	
 	// hinh binh hanh - mai nha phia truoc
 	glBegin(GL_POLYGON);
-	glColor3f(135.0 / 255, 235.0 / 255, 25.0 / 255);
+	glColor3f(135.0 / 255, 25.0 / 255, 56.0 / 255);
 	glVertex2f(0.55, -0.35);
 	glVertex2f(-0.3, -0.5);
 	glVertex2f(-0.3, -0.5);

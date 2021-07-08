@@ -1,0 +1,102 @@
+NDN là một công ty Việt Nam kinh doanh, cung cấp sản phẩm nông nghiệp cho nhiều tỉnh thành ở nhiều chi nhánh trên hầu hết các tỉnh thành và họ cũng có trụ sở chính 
+tại Việt Nam Cho đến thời điểm hiện tại, các chi nhánh của công ty ở các tỉnh thành đều có cơ sở dữ liệu riêng để lưu trữ thông tin về sản phẩm cũng như các hóa đơn tại 
+cửa hàng đó. Với ngày đầu tiên của tháng, quản lí chi nhánh sẽ gửi các dữ liệu bán hàng của tháng vừa qua về cho giám đốc quản trị. Vì các chi nhánh đều gửi hàng loạt 
+các dữ liệu về cùng một lần mà chính vì thế, giám đốc điều hành cần có nhiều thời gian để xử lí các dữ liệu thu thập mà các chi nhánh gửi về. Bên cạnh đó, hội đồng quản 
+trị không thể cập nhật các thông tin chứng khoán và thông tin của các chi nhánh theo thời gian thực. Để xử lí được một số nhược điểm như đã nêu trên, ATN cần áp dụng 
+giải pháp sử dụng điện toán đám mây vào mô hình, hệ thống kinh doanh của mình. Trong bài cáo cáo này sẽ trình bày và giải thích các giải pháp và cách nó thực hiện. 
+Nội dung của nó được trình bày như sau:
+
+
+định nghĩa về điện toán đám mây:
+Điện toán đám mây là dịch vụ phân phối, cung cấp các tài nguyên liên quan đến CNTT theo nhu cầu của người thuê (như các công ty, tổ chức doanh nghiệp hoặc cá nhân...) 
+qua internet với chính sách thanh toán tùy thuộc vào mức sử dụng. Thay vì phải đầu tư với chi phí lớn để sỡ hữu các thiết bị phân cứng, đầu tư nhân lực để bảo trì và đảm bảo
+vận hành cho các trung tâm dữu liệu, máy chủ vật lí hay các thiết bị mạng. người thuê dịch vụ có thể tiếp cận các dịch vụ công nghệ như năng lượng điện toán, lưu trữ và cơ sở
+dữ liệu khi cần thiết từ nhà cung cấp dịch vụ.
+Một số nhà cung cấp dịch vụ điện toán đám mây phổ biến như
+Amazon web Services
+vmware
+microsoft
+salesforce.com
+google
+rackspace
+IBM
+Citrix
+Joyen
+SoftLayer
+
+
+
+các nguyên tắc của điện toán đám mây
+Principles of Cloud computing
+Five Essential Characteristics
+Mạng rộng: (Broad Network access)
+Đặc điểm mạng rộng mang ý nghĩa rằng đám mây có sẵn trên internet. Việc truy cập vào đám mây có thể sử dụng bằng các thiết bị khác nhau như máy tính xách tay, máy 
+tính bàn, điện thoại di động có hổ trợ truy cập internet, máy tính bảng...
+hay các thiết bị khác có hổ trợ truy cập internet và kết nối với internet để truy cập ra bên ngoài đều có thể truy cập vào đám mây. Qua đó, chúng ta có thể thấy rằng, tất cả 
+chúng ta đều có thể truy cập và làm việc tư xa một cách linh hoạt, không bị gò
+bó vì phải làm việc ở một nơi nhất định.
+
+Độ co giãn: (Rapid Elascity)
+Nhà cung cấp dịch vụ có thể mở rộng mô hình bên trong và bên ngoài để đáp ứng và đạt được nhu cầu cần thiết của người tiêu dùng. Với đặc điểm độ co giãn, nó được thể 
+hiện bằng cách không giới hạn và có thể đạt được số số lượng bất kì vào bất cứ lúc nào.
+Để hiểu rõ hơn, ta có ví dụ như sau: Nếu người dùng yêu cầu sử dụng các dịch vụ của đám mây cho nhân viên của họ trong cùng một lúc với số lượng truy cập lớn, điều 
+này cần phải thực hiện và có nhiều máy chủ hơn. Ngược lại, nếu ít người truy cập hơn, thì nên có
+ít máy chủ hơn. Đặc điểm của độ co giãn mang lại tiết kiệm chi phí cho người dùng.
+
+Dịch vụ đo lường (Measured Service)
+Tùy theo số lượng người dùng hoặc tỉ lệ mỗi giờ mà người dùng sẽ chi trả số tiền phù hợp mà họ đang sử dụng cho nhà cung cấp dịch vụ. Người dùng chỉ cần chi trả tiền 
+cho những gì mà họ đang sử dụng dịch vụ và việc sử dụng các ứng dụng có thể được theo dõi và kiểm soát
+để điều chỉnh băng thông, xử lý và lưu trữ... Thông qua đó, nó cũng cho thấy sự minh bạch của người dùng và nhà cung cấp về cách ứng dụng được sử dụng.
+
+Tự phục vụ theo yêu cầu (On-Demand Self-Service)
+Dịch vụ sẽ tự phục vụ trên nền tảng điện toán đám mây, hệ thống cho phép người dùng có thể yêu cầu các dịch vụ mở rộng ngay khi họ cần.
+Thông qua đó, nhà cung cấp dịch vụ không cần sự can thiệp mà người dùng sẽ tự cấu hình dịch vụ một cách tự động.
+
+Tổng hợp tài nguyên (Resource Pooling)
+Khi các nhà cung cấp dịch vụ đám mây gộp toàn bộ tài nguyên của họ lại với nhau. Các tài nguyên sau đó được đưa ra để sử dụng, nhằm phục vụ nhiều khách hàng thông 
+qua việc sử dụng mô hình nhiều người fthuee.
+Phụ thuộc vào yêu cầu của người tiêu dùng, các tài nguyên vật lí và các tài nguyên ảo có thể được phân bổ một cách linh động. Một số ví dụ về các tài nguyên có thể gộp 
+là bộ nhớ, băng thông mạng, xử lí và lưu trữ...
+
+Four Cloud Deployment Models
+Public Cloud: 
+Mô hình này được đánh giá là mô hình triển khai được sử dụng phổ biến nhất trong bốn mô hình. Thông thường, mô hình này
+được các cá nhân hoặc các công ty nhỏ thuê để sử dụng. Nó được xây dựng để phục vụ cho công cộng, người dùng sẽ đăng ký với nhà cung cấp và trả phí dựa theo chinh 
+sách giá cả mà nhà cung cấp dịch vụ đưa ra.
+Private Cloud
+Đây là mô hình được cung cấp dành cho các doanh nghiệp. Những đám mây này sẽ tồn tại bên trong tường lửa của công ty, và đặc biệt hơn là các doanh nghiệp được trực 
+tiếp quản lí.
+Đây là hướng đi mới cho các doanh nghiệp nhằm tối ưu hóa cơ sở hạ tầng công nghệ thông tin.
+Community Cloud
+là một mô hình được sử dụng rộng rãi. Nguồn tài nguyên này được chia sẽ để hổ trợ thông tin cho những người có cùng mối quan tâm, sự mệnh, quan điểm... Nó có thể 
+được quản lí chung mởi một bên thứ ba nào đó hoặc bởi tổ chức trọng điểm.
+
+Hybird Cloud
+Là sự kết hợp giữa mô hình private cloud và public cloud.
+Mô hình này sẽ cho phép chúng ta khai thác các điểm mạnh của hai mô hình private cloud và public cloud. Đồng thời, nó còn đưa ra các phương thức sử dụng tối ưu cho 
+người dùng.
+Những đám mây này thường do doanh nghiệp và nhà cung cấp điện toán đám mây công cộng tao ra.
+
+Three Service Offering Models
+Software as a service SaaS:
+Dịch vụ này sẽ cung cấp các phần mềm trên nền tảng đám mây, hoạt động và thực thi tại các máy chủ ở xa. Nó được vận hành và sỡ hữu bởi một doanh nghiệp khác. Hình 
+thức của dịch vụ là kết nối máy tính của người dùng cuối thông qua 
+internet và thường sử dụng dịch vụ thông qua trình duyệt web.
+Qua đó, người dùng chỉ cần đăng nhập là có thể sử dụng được các ứng dụng đã đăng ký sử dụng. Mọi máy tính được kết nối với internet đều có thể truy cập vào ứng dụng 
+và dữ liệu. Ngoài ra, nó còn giải quyết được nhược điểm trong trường hợp máy tính gặp sự cố, thì dữ liệu đã được lưu ở trên cloud... 
+Platform as a service(PaaS)
+Dịch vụ cung cấp nền tảng môi trường cho vòng đời hoàn chỉnh để xây dựng, phát triển và cung cấp các ứng dụng webbased dựa trên cloud, không cần phải dành nhiều 
+thời gian nhân lực và chi phí đầu tư, quản trị cho các phần cứng, phần mềm cùng các cấu hình liên quan đến hệ thống, phần cứng...
+Lợi ích mà PaaS mang lại là phát triển và  cung cấp các ứng dụng cho thị trường nhanh hơn, đồng thời triển khai các ứng dụng web trên đám mây một cách nhanh chống...
+
+IaaS (cơ sở hạ tầng như một dịch vụ)
+Dịch vụ này sẽ cung cấp cho tổ chức doanh nghiệp các nguồn ftaif nguyên điện toán như các máy chủ, cơ sở hạ tầng mạng, thiết bị lưu trữ cùng với không gian trung tâm 
+dữ liệu dựa trên cơ sở trả tiền trong phạm vi sử dụng
+pay-per-use. Lợi ích mà dịch vụ mang lại cho doanh nghiệp là họ không cần phải đầu tư chi phí nhiều liên quan đến phần cứng cho hệ thống mạng doanh nghiệp. Ngoài ra, 
+hạ tầng mà doanh nghiệp thuê có thể mở rộng hoặc thu hẹp theo yêu cầu, hỗ trợ các tải công việc...
+
+
+
+
+
+
