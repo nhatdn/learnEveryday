@@ -1,0 +1,8 @@
+
+conclution
+references
+
+design system cloud computing for NDN company
+choose model triển khai
+chọn mô hình dịch vụ
+https://www.rishabhsoft.com/blog/basics-of-cloud-computing-deployment-and-service-models

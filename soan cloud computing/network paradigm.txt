@@ -1,0 +1,70 @@
+network paradigm:
+high performance computing: 
+https://insidehpc.com/hpc-basic-training/what-is-hpc/
+parallel computing
+https://www.omnisci.com/technical-glossary/parallel-computing
+cluster computing
+https://www.watelectronics.com/cluster-computing-architecture-its-types/
+grid computing
+https://www.geeksforgeeks.org/grid-computing/
+distributed computing
+https://whatis.techtarget.com/definition/distributed-computing
+================> P1
+high performance computing được định nghĩa như một siêu máy tính. Mặc dù về kỹ thuật, 
+siêu máy tính là một hệ thống lớn thực hiện bằng hoạt gần bằng tốc độ cao nhất hiện nay. 
+Hệ thống HPC được sử phổ biến trong việc nguyên cứu các nội dung liên quan đến khoa học 
+và kỹ thuật, dành cho các kỹ sư khoa học và tổ chức học thuật. 
+Các thành phân chính bao gồm user, Computers cluster and Data storage 
+
+
+distributed computing
+Điện toán phân tán được định nghĩa là một mô hình, mô hình này chứa các thành phần 
+của hẹ thống phần mềm và nó được chia sẽ giữa nhiều máy tính. Tuy chúng được trải rộng 
+trên nhiều máy tính khác nhau nhưng chúng được chạy như một hệ thống. Qua đó, chúng 
+ta có thể thấy được việc tăng hiệu quả và năng suất khi sử dụng mô hình điện toán phân tán. 
+Hiểu một cách đơn giản, điện toán phân tán có nghĩa là một cái gì đó được chia sẽ giữa nhiều 
+hệ thống,mà các máy tính trong hệ thống có thể ở vị trí khác nhau.
+
+Grid Computing là một mạng lưới kết nối các máy tính làm việc cùng nhau để thực thi một tác vụ lớn. 
+Một giao thức nào đó sẽ được áp dụng trên các máy tính của mạng đó để tạo thành một siêu máy tính ảo. 
+Thông thường, nó được áp dụng mô hình này cùng các máy tính để thực hiện các hoạt động phân tích 
+các khối dữ liệu lớn. mô phỏng các tình huống đòi hỏi khả năng tính toán cao. Grid computing cũng là 
+tập hợp con của máy tính phân tán. Trong đó, các siêu máy tính được tạo bởi các máy tính khác và chúng 
+được kết nối bởi một số bus, đa số chúng được sử dụng Ethernet hoặc đôi khi là internet. Một Grid computing 
+được tạo ra bởi 3 thành phần bao gồm 
+Control Node: thường là một máy chủ hoặc một nhóm máy chủ quản lí toàn bộ mạng và giữ tài khoản của các 
+tài nguyên trong nhóm mạng.
+Provider: Máy tính đóng góp tài nguyên của nó trong nhóm tài nguyên mạng.
+User: người sử dụng tài nguyên trên network.
+
+Cluster computing được định nghĩa là tập hợp các máy tính được kết nối với nhau để hoạt động như một máy tính duy nhất.
+Các máy tính được kết nối để thực hiện toàn bộ các hoạt động cùng nhau. Các cụm thường được kết nối thông qua (LAN)
+Các loại cluster computing:
+High performance (HP) clusters
+Load-balancing clusters 
+High Availability (HA) Clusters 
+
+Các thành phần phần của một Cluster computer:
+Cluster Nodes
+Cluster Operating System
+The switch or node interconnect
+Network switching hardware
+
+Parallel Computing là việc sử dụng nhiều thành phần xử lí đồng thời để giải quyết bất kỳ vấn đề nào đó. Các công việc được chia nhỏ 
+thành các hướng dẫn và chúng được giải quyết đồng thời vì mỗi tài nguyên đã được áp dụng cho công việc đang hoạt động cùng một lúc. 
+Ngoài ra, Parallel computing giúp chúng ta tiết kiệm thời gian và tiện bạc vì nhiều nguồn lực làm việc cùng nhau sẽ giảm thười gian và chi phí tiềm năng.
+
+Applications of Parallel Computing: 
+Databases and Data mining.
+Real-time simulation of systems.
+Science and Engineering.
+Advanced graphics, augmented reality, and virtual reality.
+
+
+
+
+
+
+
+
+

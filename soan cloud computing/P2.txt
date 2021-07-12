@@ -1,0 +1,183 @@
+
+
+Cloud Ecosystem
+<https://searchitchannel.techtarget.com/definition/cloud-ecosystem>
+=================================================
+Hệ sinh thái đám mây là một hệ thống gồm các thành phần phụ thuộc lẫn nhau, mô hình của nó khá phức tạp.
+toàn bộ hoạt động được kích hoạt các dịch vụ đám mây cùng nhau. Nói một cách dễ hiểu hơn,
+một hệ sinh thái trong tự nhiên bao gồm các sinh vật được kết nối và hoạt động cùng nhau.
+Còn đối với hệ sinh thái đám mây bao gồm các thành phân như phần cứng phần mềm, khách hàng đám mây, 
+kỹ sư đám mây, nhà tư vấn dịch vụ, nhà tích hợp và cả đối tác...
+Một hệ sinh thái đám mây mạnh mẽ sẽ cung cấp các dịch vụ đám mây một cách dễ dàng để tìm và thuê, mua các ứng
+dụng kinh doanh cho các khách hàng của dịch vụ đám mây, đáp ứng được các nhu cầu kinh doanh khi có sự thay đổi xãy ra...
+Một số vị dụ như các ứng dụng được bán thông qua cửa hàng của nhà cung cấp như AWS Marketplace, Microsoft Azure Marketplace..
+Khách hàng có thể truy cập vào các danh mục phần mềm, dịch vụ của các nhà cung cấp khác nhau để thuê và sử dụng. Mà tại đây,
+các phần mềm và dịch vụ đã được kiểm tra, xem xét về bảo mật, rủi ro và chi phí.
+=================================================
+
+Requirements for Cloud Services
+http://arunkottolli.blogspot.com/2011/05/basic-requirements-of-cloud-computing.html
+=================================================
+Dưới đây là một số yêu cầu cơ bản về một dịch vụ điện toán đám mây:
+Tính khả dụng: (Availability)
+Ta có thể xét ví dụ trong tình huống này, các khách hàng luôn muốn các dịch vụ CNTT
+mà họ thuê luôn hoạt động và có sẵn. Tuy nhiên, trong thực tế, trong một thời gian nào đó
+mà máy tính có thể gặp các sự cố như lỗi.. Điều này có nghĩa rằng, nhà cung cấp dịch vụ 
+nên triển khai một hệ thống như thế nào đó để khôi phục được thảm họa mà nó có thể xãy ra
+sao cho đáng tin cậy. Khi sự cố xãy ra, nhà cung cấp dịch vụ cần di chuyển các dịch vụ của khách
+hàng sáng trung tâm dữ liệu khác một cách liền mạch mà khách hàng thậm chí có thể không biết về điều đó.
+Việc di chuyển khách hàng sang các ứng dụng mà họ thuê hoặc trung tâm dữ liệu khác cần có sự minh
+bạch với người dùng cuối or khách hàng...
+
+
+Tính di động: Portability of Data & Applications
+Tính chất này yêu cầu các dịch vụ điện toán đám mây cho phép khách hàng chuyển dữ liệu hoặc ứng dụng
+của họ từ nhà cung cấp dịch vụ này, sang nhà cung cấp dịch vụ khác. Trong thực tế, với các dịch vụ đám mây
+công cộng, khách hàng có thể di chuyển dữ liệu và ứng dụng  của họ từ đám mây này sang đám mây khác
+mà không làm ảnh hưởng đến các dịch vụ CNTT cung cấp cho người dùng cuối. Bên cạnh đó, hành động này
+cần có sự minh bạch đối với người dùng cuối..
+
+Data Security
+Các dữ liệu và ứng dụng của các khách hàng đều nằm trên đám mây công cộng của các nhà cung cấp dịch vụ,
+chính vì thế mà các nhà cung cấp dịch vụ có trách nhiệm cung cấp bảo mật để đảm bảo sự an toàn, riêng tư cho
+khách hàng. Một khi có sự cố xãy ra, nhà cung cấp dịch vụ phải chịu hoàn toàn trách nhiệm về bảo mật của người
+dùng, tuy nhiên, một số trách nhiệm, yêu cầu nhất định cần được khách hàng phải thực hiện để đảm bảo bảo mật 
+dữ liệu. Việc bảo mật dữ liệu sẽ tác động mạnh mẽ vào việc khách hàng lựa chọn dịch vụ của nhà cung cấp đó hay\
+không. Việc lựa chọn nhà cung cấp dịch vụ giống như việc khách hàng lựa chọn ngân hàng để gửi tiền vậy.
+
+Manageability
+Quản trị viên khách hàng cần quản lí và kiểm soát các cơ sở hạ tầng đám mây từ khách hàng.
+Khách hàng có quyền tạo ra các tài khoản mới, thực hiện các giám sát tài khoản được tạo cũng
+như có khả năng cung cấp các dịch vụ khác nhau... Người dùng cuối luôn muốn biết xem tính khả dụng, hiệu
+suất dữ liệu cũng như cấu hình, cung cấp tập hợp cơ sở hạ tầng mà họ đang sử dụng trên đám mây.
+Bên cạnh đó, nhà cung cấp dịch vụ phải có các công cụ nhằm mục đích quản lí tính khả dụng, hiệu suất, cấu hình,
+bảo mật của các ứng dụng và cơ sở hạ tầng như lưu trữ, máy chủ và mạng..
+
+Elasticity (độ co giãn)
+Khách hàng thuê điện toán đám mây luôn mong muốn cung cấp, đáp ứng các yêu cầu của họ ngay lập tức.
+Khi khách hàng cần lượng tài nguyên máy tính lớn và có sẵn để họ có thể làm việc ngay tại thời điểm cao.
+Khi tải công việc thấp, các tài nguyên máy tính mà họ thuê cần được giải phóng và thu hồi trở về nhóm
+đám mây. khách hàng mong muốn nhà cung cấp dịch vụ tính phi dựa trên những gì họ đã thực sự sử dụng
+trong quá trình họ thực hiện. Qua đó, ta có thể hiệu rằng, hệ thống cấp phát động là phần cơ bản của phần mềm
+quản lí đám mây. Thông qua đó, người dùng có thể tương tác với hệ thống một cách dễ dàng.
+
+
+Federated System (Hệ thống liên kết)
+Hệ thống liên kết đáp ứng được yêu cầu trong việc khi khách hàng thuê các điện toán đám mây của nhiều nhà cung cấp
+dịch vụ và họ cần liên kết các đám mây đó. Điều này có nghĩa là, với mỗi dịch vụ đám mây của từng nhà cung cấp dịch
+vụ cần phải có giao diện và hệ thống kết nối cá dịch vụ đám mây khác dể chia sẽ tải và khả năng tương tác ứng dụng cũng
+như lưu trữ dữ liệu...
+
+
+=================================================
+
+Benefits and Drawbacks of cloud computing
+https://www.stratospherenetworks.com/advantages-and-disadvantages-of-cloud.html
+
+Điện toán đám mây gần như được sử dụng rộng rãi trong thập kỹ vừa qua, nhiều doanh nghiệp
+cũng đã thực hiện, thuê đám mây từ các nhà cung cấp dịch vụ. Tuy nhiên, bên cạnh những
+lợi ích vượt trội mà đám mây mang lại, nó cũng có các nhược điểm mà chúng ta cần lưu ý.
+Dưới đây là phần trình bày về ưu và nhược điểm của điện toán đám mây:
+
+ƯU ĐIỂM:
+Thực hiện dễ dàng: Dịch vụ lưu trữ đám mây cung cấp và cho phép cá doanh nghiệp tiếp tục sử dụng
+các ứng dụng và quy trình kinh doanh của họ. Nó dễ dàng thực hiện và quản lí thông qua internet.
+Ngoài ra, các doanh nghiệp có thể truy cập vào cơ sở hạ tầng đám mây một cách dễ dàng và nhanh chóng.
+
+Khả năng tiếp cận: điện toán đám mây có thể truy cập ở bất cứ nơi đầu và bất kì khi nào. Cơ sở hạ tầng
+đám mây tối ưu hóa năng suất và hiệu quả dành cho doanh nghiệp bằng việc thực hiện, đảm bảo cá ứng dụng
+của khách hàng luôn luôn nằm trong trạng thái sẵn sàng để khách hàng có thể truy cập được. Điều này làm nổi
+bật trong việc công tác và chia sẽ cho nhiều người ở các vị trí địa lí khác nhau...
+
+không yêu cầu phần cứng: toàn bộ dữ liệu, ứng dụng hay mọi thứ đều được lưu trữ trên đám mây. Chính vì thế mà
+trung tâm lưu trữ vật lí không còn cần thiết nữa. Tuy nhiên, các công ty, tổ chức doanh nghiệp cần có backup để tránh tình
+trạng xãy ra các thảm họa hoặc rủi ro làm ảnh hưởng đến năng suất của công ty, tổ chức...
+
+Chi phí trên đầu người: Chi phí được giữ ở mức tối thiểu với các dịch vụ lưu trữ đám mây, phụ thuộc vào thời gian
+và phạm vi mà khách hàng thuê để sử dụng. Bảng giá được quy định bởi các nhà cung cấp dịch vụ và có thể được tính
+theo giờ, theo ngày, theo tuần... giúp cải thiện cơ sở hạ tầng của công ty...
+
+Tính linh hoạt để tăng trưởng
+Đám mây dễ dàng để mở rộng, chính vì thế mà các công ty có thể thêm hoặc bớt tài nguyên dựa trên nhu cầu của họ.
+Khi công ty phát triển, hệ thống của họ cũng phát triển theo.
+Phục hồi hiệu quả: khách hàng có thể truy xuất các ứng dụng và dữ liệu nhanh hơn và chính xác hơn khi sử dụng đám mây.
+Nó giúp giảm thời gian chết. Chính vì thế mà nó là phương án khôi phục hiệu quả nất.
+
+
+
+
+
+Nhược điểm
+Không còn kiểm soát được nữa: Khi chuyển các dịch vụ lên đám mây, các nhân viên của công ty, doanh nghiệp sẽ chuyển giao
+dữ liệu và thông tin lên đám mây. Với các công ty có bộ phận, đội ngũ CNTT nội bộ, họ sẽ không thể tự ý quyết định hay xử lí
+toàn bộ vấn đề bởi đây là nhiệm vụ của bên nhà cung cấp dịch vụ.
+
+Có thể không nhận được tất cả các tính năng: Mỗi dịch vụ đám mây đều có những tính năng cũng như đặc điểm riêng, chính vì thế
+mà không phải dịch vụ đám mây nào cũng giống nhau. xu hướng của nhà cung cấp dịch vụ là cung cấp các phiên bản giới hạn và
+chỉ kích hoạt các tính năng phổ biến. Chính vì thế mà một số tính năng mà khách hàng cần có thể không được nhận hoặc tùy chỉnh như
+chúng ta mong muốn.
+
+không có nghĩa là chúng ta nên bỏ các máy chủ: Nếu công ty có thể có ít máy chủ để xử lí, tương đồng với việc
+nhóm quản lí hệ thống cơ sở hạ tầng của bộ phận CNTT của công ty xử lí ít hơn. Tuy nhiên, điều này không có nghĩa là công ty
+không thể bỏ qua tất cả các máy chủ và nhân viên quản lí các thiết bị đó. Tuy nó có vẻ tốn kém khi công ty có cả cơ sở hạ tầng, thiết bị
+và cả cơ sở hạ tầng đám mây nhưng dự phòng là chìa khóa duy nhất để sao lưu và phục hồi dữ liệu khi có sự cố xãy ra.
+
+Không có dự phòng: máy chủ đám mây không được sao lưu. Xét trong trường hợp máy chủ đám mây gặp sự cố, thì trước hết chúng ta cần
+mua hoặc thuê một gói khác để dự phòng. Tuy đây là chi phí phát sinh hoặc bổ sung nhưng trong hầu hết các trường hợp, nó sẽ đảm bảo tính
+an toàn cho chúng ta một cách xứng đáng.
+
+Vấn đề về băng thông: Khách hàng cần tạo lập kế hoạch phù hợp và đặc biệt là không đóng gói số lượng lớn máy chủ và thiết bị lưu trữ tại một tập
+hợp trung tâm dữ liệu nhỏ. Bởi vì điều này có thể ảnh hưởng đến hiệu suất.
+
+=================================================
+Cloud Architecture
+https://www.vmware.com/topics/glossary/content/cloud-architecture
+=================================================
+Kiến trúc đám mây là tập hợp các thành phần công nghệ bao gồm cả phần mềm và phần cứng
+để xây xựng nên một đám mây. Trong đó, tài nguyên được lưu trữ thông qua công nghệ ảo hóa
+và được chia sẽ lên đám mây thông qua internet. Các thành phần của một kiến trúc đám mây bao gồm:
+Một mạng lưới
+Nền tảng front-end như máy khách (laptop, PC, tablet.. các thiết bị dùng để truy cập đám mây)
+Nền tảng back-end như các máy chủ và bộ nhớ (là các trung tâm lưu trữ dữ liệu)
+Mô hình phân phối dựa trên đám mây 
+
+Một số lí do để thiết kế một kiến trúc đám mây mạnh mẽ và toàn diện là:
+Cho phép cung cấp tài nguyên nhanh hơn.
+Đảm bao sự tuân thủ với các quy định mới nhất.
+Mang lại sự minh bạch cho khách hàng, cắt giảm chi phí và ngăn chặn vi phạm dữ liệu.
+Đáp ứng các mục tiêu dịch vụ một cách nhất quán.
+
+
+Nguyên tắc cơ bản của kiến trúc đám mây
+Ảo hóa: đây là công nghệ mà trong đó xây dựng các kiến trúc đám mây. Ảo hóa hoạt động bằng cách
+tạo ra software-based hoặc ảo hóa của một tài nguyên, ví dụ điển hình là máy chủ. Ảo hóa giúp giảm nhu cầu về phần cứng đắt tiền,
+nhưng vẫn tăng hiểu quả và tính linh hoạt bằng cách trừu tượng hóa tài nguyên phần cứng và tối đa hóa đầu ra của máy chủ.
+
+Phần cứng: Nó đóng vai là các thành phần back-end của trung tâm dữ liệu doanh nghiệm bao gồm các thiết bị như
+bộ lưu trữ liên tục, các thiết bị mạng như switch, router cũng như các thiết bị máy chủ chuyên dụng...
+
+Middleware: Là những phần mềm hoạt động tại vị trí trung gian, cho phép các phần mềm, ứng dụng giao tiếp với nhau hoặc cho phép
+các máy tính kết nối mạng...
+
+Quản lí: Các thông số như hiệu suất và dung lượng của môi trường đám mây được các công cụ quản lí liên tục theo dõi. Các nhóm CNTT
+cũng có thể tham gia vào việc theo dõi sử dụng, triển khai ứng dụng mới, tích hợp dữ liệu và đảm bảo khôi phục dữ liệu khi có sự cố hoặc thảm
+họa xãy ra.
+
+Phần mềm tự động hóa: Chúng góp phần trong việc cung cấp các dịch vụ CNTT quan trọng cũng như các chính sách được xác định trước.
+Trong kiến trúc đám mây, phần mềm tự động hóa được sử dụng nhằm mục đích xử lí quy mô tài nguyên hệ thống, đáp ứng được toàn bộ nhu cầu
+sử dụng điện toán tăng đột biến, triển khai ứng dụng đáp ứng nhu cầu thị trường luôn biến động. Nó đóng vai trò như một quản trị trên môi trường
+đám mây.
+=================================================
+=================================================
+Application on Cloud
+https://www.sumologic.com/glossary/cloud-application/#:~:text=A%20cloud%20application%20simply%20refers,infrastructure%20to%20support%20cloud%20applications.
+=================================================
+Hiểu một cách đơn giản, ứng dụng đám mây là việc chỉ rõ vấn đề các ứng dụng, phần mềm nào đó được triển khai, thực thi trên môi trường đám mây. Thông qua internet, mà 
+người dùng cso thể truy cập vào các phần mềm đó. Các chiến lược phát triển ứng dụng trên đám mây giúp nhóm phát triển thiết kế ứng dụng trải nghiệm nhất quán trên bất kì
+cơ sở hạ tầng nào...
+
+
+
+
+
+

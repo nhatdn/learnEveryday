@@ -1,0 +1,55 @@
+Định nghĩa về điện toán đám mây
+Còn có tên là điện toán máy chủ ảo, đây là một mô hình điện toán sử dụng các công nghệ
+máy tính, và nó đượt phát triển dựa vào mạng internet. Thuật ngữ đám mây có ý nghĩa ẩn dụ chỉ 
+vào sự bố trí và sơ đổ của mang máy tính, liên tưởng đến độ phức tạp về cơ sở hạ tầng bên trong.
+Trong mô hình điện toán đám mây, mọi thứ có khả năng cung cung cấp, liên quan đến công nghệ
+thông tin đều được cung cấp dưới dạng dịch vụ. Các công ty sở hữu điện toán đám mây sẽ cho phép
+các công ty, tổ chức doanh nghiệp hay các cá nhân thuê và sử dụng, truy cập các dịch vụ công nghệ
+bên thuê không cần có nhiều kiến thức liên quan đến các cơ sở hạ tầng phục vụ công nghệ đó
+
+Chúng ta có thể hiểu một cách đơn giản rằng, điện toán đám mây là một trung tâm cung cấp các dịch
+vụ mà chúng ta có thể lưu trữ dữ liệu từ bất kì thiết bị nào có thể kết nối với internet như điện thoại,
+laptop, tablet... bằng cách tại dữ liệu lên dịch vụ điện toán đám mây, và truy suất bất kì thiết bị
+nào có kết nối với internet cũng như bất kì đâu. Để sử dụng được các dịch vụ, người thuê cần phải
+trả tiền tùy theo bảng giá của nhà cung cấp dịch vụ cung cấp theo cơ chế Pay-per-use
+
+
+Sơ lược lịch sử phát triển điện toán đám mây
+Khái niệm điện toán đám mây ra khoảng năm 1960. Cho đến những năm sau, rất nhiều công ty về công nghệ
+trên toàn thê giới được thành lập. Đồng thời, mạng internet đã bắt đầu được đưa vào khởi nguồn để sử dụng
+rộng rãi. Cho đến năm 1971, tập đoàn Integrated Electronics đã ra đời bộ vi xử lí đầu tiên. Ray Tomlinson 
+là một kỹ sư tin học của tập đoàn Integrated Electronics cũng đã tạo ra một ứng dụng gửi tin nhắn
+giữa máy tính này qua máy tính khác. Ứng dụng này có cơ chế hoạt động như các ứng dụng gửi email thời bây giờ.
+Sau đó vài năm trong thời gian khoảng 1974. Bill Gates và  Paul Allen đã sáng lập nên Microsoft và năm 1976 Steve Wozniak
+cùng với Steve Jobs đã thành lập Apple Computers.
+Năm 1976. Robert Metaclfe của Xerox đã định nghĩa được khái niệm về Ethernet.
+Năm 1981. IBM tung ra mẫu PC đầu tiên và sau đó một năm, hệ điều hành MS-DOS của Microsoft ra đời. Khoảng 5000 máy tính
+tại thời điểm đó hầu hết sử dụng hệ điều hành này.
+Năm 1984, Hệ điều hành Macintoah được ra đời.
+Năm 1991, WWW là một phương thức kết nối được phát hành bởi CERN.
+Năm 1994, Netscape được thành lập và sau một năm, Ebay và Amazon được thành lập.
+Cho đến những năm cuối của thập niên 90. Internet được phát triển mạnh mẽ, các thiết bị mới được ra đời và đây cũng là điều kiện để điển toán đám mây phát triển.
+Năm 2002, Amazon giới thiệu AWS
+năm 2004, Facebook ra đời, nhu cầu trao đổi thông tin cá nhân bủng nổ. Xây dựng nên định nghĩa đám mây dành cho cá nhân.
+Năm 2006, Điện toán đám mây thực sự được phát triển và trỗi dậy mạnh mẽ. Trong thời gian này, Amazon đã phát hành
+các dịch vụ EC2, các ứng dụng, hệ thống được đưa ra để cho phép các công ty, tổ chức doanh nghiệp khác thuê các dịch vụ.
+Năm 2006, Google đã tung ra dịch vụ Google DOCs, mang đến cho điện toán đám mây có sức mạnh lớn, mang đến dịch vụ
+chia sẽ tài liệu trực tiếp tới người dùng.
+Cho đến năm 2010. Các công ty công nghệ đẩy mạnh dịch vụ nhằm mục đích phục vụ cho các khách hàng của mình một cách tốt nhất.
+Sự ra đời của các thiết bị công nghệ như smartphone, máy tính bảng, laptop... cũng giúp cho các dịch vụ điện toán đám mây phát triển lên một tầm cao mới.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

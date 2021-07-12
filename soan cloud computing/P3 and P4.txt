@@ -1,0 +1,114 @@
+compare service models
+
+
+compare deployment models
+Đám mây công cộng (Public Cloud)
+Nó được truy cập bởi công cộng. Mô hình này hoàn hảo cho các tổ chức có nhu cầu ngày càng biến động. Đây cũng là một lựa chọn sáng suốt cho các công ty có lo ngại về bảo mật thấp.
+Là mô hình tuyệt vời cho các nhóm phát triển và thử nghiệm. Cấu hình và triển khai mô hình nhanh chóng và dễ dàng...
+Ưu điểm
+Không cần thiết lập phần cứng bởi vì chúng được hổ trợ bởi nhà cung cấp dịch vụ điện toán đám mây
+Không cần quản lí cơ sở hạ tầng
+Chi phí đầu tư tối thiểu, chi phí trả trước không lớn. 
+nó là dịch vụ trả tiền cho mỗi lần sử dụng.
+Hạn chế:
+Giới hạn dịch vụ và giấy phép
+Các vấn đề về độ tin cậy không được ổn định.
+Lo ngại mối quan tâm về quyền riêng tư và bảo mật dữ liệu
+
+Đám mây riêng
+Dành cho các công ty tìm kiếm hiệu quả về chi phí, kiểm soát dữ liệu và tài nguyên tốt hơn
+Nó sẽ được tích hợp với trung tâm dữ liệu của công ty, được quản lí bởi đội ngũ IT của công ty.
+Đáp ứng được các yêu cầu cụ thể của tổ chức doanh nghiệp, công ty...
+Đây là lựa chọn khôn ngoan cho các quy trình quan trọng về các yêu cầu thường xuyên thay đổi.
+Lợi ích:
+Bảo mật dữ liệu tốt, giúp lưu trữ dữ liệu công ty, chỉ những người ủy quyền mới có thể truy cập
+Hổ trợ các hệ thống kế thừa
+
+Hạn chế:
+Chi phí cao hơn so với đám mây công cộng. 
+Khả năng mở rộng cố định
+Bảo trì cao
+
+Đám mây cộng đồng
+Hoạt động gần giống so với đám mây công cộng. Tuy nhiên, nó chỉ cho phép một nhóm người cụ thể có chung mục tiêu và trường hợp sử dụng.
+Ưu điểm:
+Rẻ tiền hơn so với đám mây riêng và công cộng.
+Cung cấp hiệu suất tốt.
+Các giao thức và cấu hình của một đám mây cộng đồng phải phù hợp với các tiêu chuẩn.
+Cho phép khách hàng làm việc hiệu quả hơn
+
+Hạn chế
+không phổ biến
+Tài nguyên được chia sẽ, do băng thống và dung lượng lưu trữ bị hạn chế.
+
+Đám mây lai
+là sự kết hợp của hai hoặc nhiều kiến trúc đám mây khác.
+tuy mỗi mô hình trong đám mây lai hoạt động khác nhau, nhưng chúng đều là một phần của cùng một kiến trúc.
+Ưu điểm
+Hiệu quả về chi phí
+Bảo mật dữ liệu
+có ính linh hoạt, các doanh nghiệp có thể tạo ra các yêu cầu tùy chỉnh phù hợp vs yêu cầu của họ
+Hạn chế
+Có sự phức tạp vì nó tích hợp hai hoặc nhiều kiến trúc đám mây
+Có ý nghĩa với các tổ chức có nhiều trường hợp sử dụng hoặc cần tách biệt dữ liệu quan trọng và nhạy cảm.
+
+
+
+IaaS: là việc thuê và sử dụng cơ sở hạ tầng vật lí như server, ổ cứng, mạng... từ 1 nhà cung cấp dịch vụ.
+tai nguyên được lưu trữ bên ngoài và người dùng có thể truy cập chúng thông qua internet.
+Lợi ích
+tiết kiệm thời gian và chi phí bởi vì không cần bảo trì, cài đặt phần cứng CNTT trong nhà.
+Có thể truy cập từ xa và quản lí tài nguyên.
+Tính linh hoạt tốt hơn
+Phù hợp:
+Các doanh nghiệp, tổ chức có khả năng xây dựng và quản lí nền tảng CNTT cho riêng họ
+tuy nhiên họ muốn sử dụng IaaS để sửa đổi cơ sở hạ tầng theo nhu cầu một cách linh hoạt.
+
+
+
+PaaS
+cho phép gia công co sở hạ tầng phần cứng và phần mềm bao gồm co sở dữ liệu, lớp ích hợp, thời gian chạy, các hệ điều hành như (windows, linux)
+Lợi ích
+trung tâm phát triển
+tiết kiệm thời gian và linh hoạt
+Bảo mật dữ liệu
+
+Phù hợp:
+Các công ty muốn duy trì quyền kiểm soát các ứng dụng kinh doanh của họ.
+Không muốn bị ràng buộc để quản lí cơ sở hạ tầng phần cứng và môi trường phần mềm
+
+SaaS:
+mô hình phân phối dịch vụ phần mềm, nhà cung cấp dịch vụ chỉ cho thuê dịch vụ dựa trên phần mềm đó chứ không bán sản phẩm phần mềm.
+Tiết kiệm chi phí cho doanh nghiệp
+luôn nhận được các tính năng phần mềm tốt nhất
+Dễ sử dụng ở mọi lúc mọi nơi
+Có khả năng tích hợp
+Dễ dàng mở rộng quy mô sử dụng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

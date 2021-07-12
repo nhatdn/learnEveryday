@@ -1,0 +1,30 @@
+Lựa chọn mô hình triển khai cho công ty ATN 
+Đám mây công cộng sẽ phù hợp nhất với công ty ATN so với các mô hình triển khai 
+hiện có bởi vì những lí do sau: 
+Mô hình này giúp tiết kiệm chi phí và giảm nhân lực trong việc quản lí các phần cứng 
+bởi vì nó không yêu cầu nhiều về cơ sở hạ tầng như hệ thống máy chủ... 
+ATN là công ty lần đầu tiên sử dụng dịch vụ cloud nên chính vì thế việc lựa chọn một dịch vụ 
+rẻ tiền, giúp cho công ty đầu tư sử dụng với chi phí thấp. Đây là một sự lựa chọn khá tốt cho công ty ATN.
+Tính bảo mật và độ tin cậy khá cao
+Không cần phải bảo trì bởi vì khi công ty sử dụng dịch vụ cloud, nhà cung cấp dịch vụ sẽ lo cho chúng ta những công việc này.
+Khả năng mở rộng của mô hình triển khai đám mây công cộng không giới hạn. Có thể đám ứng khả năng mở rộng dựa theo yêu cầu của công ty ATN để đáp ứng nhu cầu kinh doanh của công ty.
+
+
+
+
+
+Đối với công ty ATN, tôi đề xuất sử dụng dịch vụ SaaS với một số lí do sau:
+SaaS giúp tiết kiệm chi phí, công ty ATN không cần tốn quá nhiều tiền cho việc mua bản quyền cho các phần mềm khác.
+SaaS cho phép chạy trên nền tảng web của nhà cung cấp nên không cần tốn dung lượng phần cứng để cài đặt hoặc xây dựng cơ sở dữ liệu.
+Khi sử dụng SaaS, công ty ATN sẽ không tốn thêm phất kì chi phí nào về bảo trì..
+SaaS giúp tiết kiệm thời gian và nhân lực cho công ty, nhà cung cấp dịch vụ sẽ có bộ phận hổ trợ trực tiếp cho công ty về thiết lập tài khoản training cho nhân viên sử dụng các phần mềm...
+Tự động và thường xuyên cập nhật các tính năng mới nhất.
+Do nhà cung cấp mô hình dịch vụ SaaS triển khai dịch vụ thông qua internet nên công ty ATN chỉ cần sử dụng thiết bị có kết nối với internet là có thể sử dụng dịch vụ ở bất kì nơi nào.
+Ngoài ra, SaaS có khả năng mở rộng quy mô sử dụng như mở thêm tài khoản hoặc tích hợp thêm các phần mềm khác mà không ảnh hưởng đến cơ sở dữ liệu...
+SaaS có khả năng tích hợp cao. Các ứng dụng được sử dụng một cách độc lập. Truy nhiên trong một số trường hợp nào đó mà nhu cầu trao đổi dữ liệu giữa các phần mềm là cần thiết. Chính vì thế các phần mềm trên SaaS đều được tối ưu hệ thống API. API sẽ giúp các ứng dụng khác nhau trao đổi và giao tiếp với nhau
+
+
+
+
+
+

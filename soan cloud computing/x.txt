@@ -1,0 +1,50 @@
+công ty nên sử dụng điện toán đám mây?
+giúp tiết kiệm thời gian và tiền bạc
+không cần mua máy chủ, bảo trì hệ thống
+k cần tuyển nhân lực nhiều cho việc quản lí hệ thống thiết bị...
+chỉ cần xác định những tài nguyên cần thiết, yêu cầu nhà cung cấp dịch vụ.
+
+giúp chúng ta nâng cấp và duy trì hệ thống.
+kiểm soát, quản lí giám sát tình hình của các chi nhánh như tiền, tồn kho.. chứng khoán..
+
+giải pháp thích hợp
+hiện tại mỗi cửa hàng thì có 1 db riêng, quản lí từng cửa hàng gửi cho giám đốc hàng tháng...
+cần thu thập dữ liệu, số hóa dữ liệu. tạo 1 website truy cập để báo cáo...
+sử dụng cân bằng tải, đảm bảo hệ thống khả dụng
+
+
+
+sử dụng public cloud:
+chi phí thấp
+không bảo trì
+khả năng mở rộng không giới hạn
+độ tin cậy cao => tìm ưu điểm của public cloud.
+dễ triển khai
+https://longvan.net/dam-may-cong-cong-cho-doanh-nghiep.html
+SaaS
+https://hostingviet.vn/saas-la-gi-uu-diem-va-nhuoc-diem-cua-dich-vu-saas-mo-hinh-dich-vu-saas
+Ngôn ngữ lập trình, máy chủ web, máy chủ cơ sở dữ liệu
+PHP
+
+
+why NDN company must use cloud computing?
+Điện toán đám mây là một trong những sự lựa chọn tuyệt vời đối với công ty NDN bởi
+những lợi ích mà nó mang lại thật sự rất lớn. Dưới đây là những lợi ích mà điện toán đám
+mây mang lại cho công ty:
+Khi công ty sử dụng điện toán đám mây, chi phí đầu tư, vận hành, mua, thuê nhân lực để quản lí
+cho các phần mềm cũng như các trang thiết bị về mặt phần cứng như FTP server 
+cũng như các ổ cứng có dung lượng lớn trong các máy tính của nhân viên công ty
+được giảm đi đánh kể. 
+Khi sử dụng điện toán đám mây để lưu trữ, nó cho phép khả năng mở rộng quy mô ngay lập tức,
+có thể tăng hoặc giảm dựa vào công ty yêu cầu và các nhà cung cấp dịch vụ cloud cũng không yêu
+cầu cam kết lâu dài khi sử dụng dịch vụ. Đây là điểm vượt trội hơn khi công ty sử dụng máy chủ cục
+bộ để lưu trữ.
+Bên cạnh đó, các dữ liệu được lưu trữ ở trên cloud, chính vì thế việc truy cập vào các dữ liệu bên trong
+cloud không đòi hỏi chúng ta ở đâu, chúng ta chỉ cần có thiết bị như PC, laptop... có kết nối với internet
+là có thể truy cập. Đây là một ưu điểm lớn giúp cho các nhân viên của công ty có thể làm việc tại nhà,
+hoặc các chi nhánh, cửa hàng con của các công ty có thể cập nhật tình hình kinh doanh trong thời gian thực,
+giúp cho giám đốc công ty cũng như các ban lãnh đạo cập nhật thông tin chứng khoán theo thời gian thực.
+Dữ liệu được đám mây lưu trữ sẽ an toàn và bảo mật hơn. Vấn đề này sẽ được nhà cung cấp dịch vụ điện
+toán đám mây đảm bảo và họ có thể chịu trách nhiệm về tính bảo mật cho các dữ liệu đó. Ngoài ra,
+nó là nơi giúp chúng ta backup dữ liệu, tránh tình trạng bị tấn công hoặc các rủi ro xãy ra, giúp công ty
+có thể khôi phục lại dữ liệu.

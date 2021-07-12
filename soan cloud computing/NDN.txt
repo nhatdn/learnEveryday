@@ -1,0 +1,27 @@
+công ty nên sử dụng điện toán đám mây?
+giúp tiết kiệm thời gian và tiền bạc
+không cần mua máy chủ, bảo trì hệ thống
+k cần tuyển nhân lực nhiều cho việc quản lí hệ thống thiết bị...
+chỉ cần xác định những tài nguyên cần thiết, yêu cầu nhà cung cấp dịch vụ.
+
+giúp chúng ta nâng cấp và duy trì hệ thống.
+kiểm soát, quản lí giám sát tình hình của các chi nhánh như tiền, tồn kho.. chứng khoán..
+
+giải pháp thích hợp
+hiện tại mỗi cửa hàng thì có 1 db riêng, quản lí từng cửa hàng gửi cho giám đốc hàng tháng...
+cần thu thập dữ liệu, số hóa dữ liệu. tạo 1 website truy cập để báo cáo...
+sử dụng cân bằng tải, đảm bảo hệ thống khả dụng
+
+
+
+sử dụng public cloud:
+chi phí thấp
+không bảo trì
+khả năng mở rộng không giới hạn
+độ tin cậy cao => tìm ưu điểm của public cloud.
+dễ triển khai
+https://longvan.net/dam-may-cong-cong-cho-doanh-nghiep.html
+SaaS
+https://hostingviet.vn/saas-la-gi-uu-diem-va-nhuoc-diem-cua-dich-vu-saas-mo-hinh-dich-vu-saas
+Ngôn ngữ lập trình, máy chủ web, máy chủ cơ sở dữ liệu
+PHP
