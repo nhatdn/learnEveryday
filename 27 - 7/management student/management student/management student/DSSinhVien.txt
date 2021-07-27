@@ -1,0 +1,11 @@
+3
+CN123,Nguyen Van,A,Male,0123456
+CN234,Nguyen Van,D,Female,01253456
+CN456,Nguyen, A,Female,012356
+3
+CN567,Nguyen Van,E,Male,01234656
+CN789,Nguyen Thi,S,Female,012341156
+CN158,Nguyen Van,C,Male,01234556
+2
+AT123,Tran Van,C,Male,012342256
+AT234,Tran,C,Male,0123422856

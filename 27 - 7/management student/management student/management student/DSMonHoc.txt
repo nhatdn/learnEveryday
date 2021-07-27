@@ -1,0 +1,5 @@
+KCN11,Program C,2,1
+KCN22,Database,3,0
+KCN33,Networking,3,1
+KTC11,Design Web,3,0
+KTC22,Math,2,1
